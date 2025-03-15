@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #205781;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #4F959D;
+    --color-button-hover: #80ac9e;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -90,6 +90,8 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    display: flex;
+    gap: 20px;
 }
 
 /* Estilos de entrada de texto */
@@ -136,7 +138,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #0588df;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +161,8 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-draw:disabled {
+    background: #898989;
 }
